@@ -1,73 +1,175 @@
 <html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Karan Sharma</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
-    <style>
-        body {
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Blog
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
             font-family: 'Roboto', sans-serif;
         }
-        .hover\:text-yellow-500:hover {
-            color: #f59e0b;
+        .dark-glow {
+            filter: brightness(0.7);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
         }
-    </style>
-	<script type='text/javascript' src='//pl25506830.profitablecpmrate.com/87/b4/99/87b4997e9442b313cd68301c22def61d.js'></script>
-</head>
-<body class="bg-blue-50">
-<header class="flex justify-between items-center p-6 bg-white shadow-md">
-    <div class="flex items-center">
-        <div class="bg-blue-600 p-2 rounded-full">
-            <i class="fas fa-home text-white"></i>
-        </div>
-        <span class="ml-2 text-blue-600 font-bold">HOME</span>
-    </div>
-    <nav class="space-x-8 text-blue-600">
-        <a class="hover:underline hover:text-yellow-500" href="#">BLOG</a>
-        <a class="hover:underline hover:text-yellow-500" href="#">ISSUES</a>
-        <a class="hover:underline hover:text-yellow-500" href="#">ABOUT ME</a>
-    </nav>
-</header>
-<main class="flex flex-col lg:flex-row items-center justify-between p-12 lg:p-24">
-    <div class="lg:w-1/2 space-y-6">
-        <h2 class="text-blue-600 text-xl">Creativity &amp; Services</h2>
-        <h1 class="text-blue-800 text-5xl font-bold">WEB DEVELOPMENT</h1>
-        <p class="text-blue-400 text-lg">
-            This site is currently under development.
-        </p>
-        <button class="bg-blue-600 text-white py-3 px-6 rounded-full text-lg font-bold hover:bg-blue-700">GET MORE</button>
-    </div>
+        .transparent-bg {
+            background: transparent;
+        }
+        .glow {
+            color: #fff;
+            text-align: center;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+            }
+            to {
+                text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
+            }
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .fade-out {
+            animation: fadeOut 1s ease-in-out;
+        }
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+  </style>
+ </head>
+ <body class="bg-black text-white">
+  <header class="flex justify-between items-center p-6">
+   <div class="flex items-center">
+    <img alt="Logo" class="mr-3 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/kLBqgT7zUQoaJRQMbTVzErAaxfr1ZHnwawbmyivforYDA8CUA.jpg" width="40"/>
+    <span class="text-xl font-bold">
+     Blog
+    </span>
+   </div>
+   <nav class="hidden md:flex space-x-6">
+    <a class="hover:text-gray-400 cursor-pointer" onclick="showUnderConstruction()">
+     Home
+    </a>
+    <a class="hover:text-gray-400 cursor-pointer" onclick="showUnderConstruction()">
+     About
+    </a>
+    <a class="hover:text-gray-400 cursor-pointer" onclick="showUnderConstruction()">
+     Services
+    </a>
+    <a class="hover:text-gray-400 cursor-pointer" onclick="showUnderConstruction()">
+     Blog
+    </a>
+    <a class="hover:text-gray-400 cursor-pointer" onclick="showContactInfo()">
+     Contact
+    </a>
+   </nav>
+   <button class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-gray-400" onclick="showContactInfo()">
+    Contact Now
+   </button>
+  </header>
+  <main class="flex flex-col md:flex-row items-center justify-between p-6 md:p-12">
+   <div class="text-center md:text-left md:w-1/2">
+    <p class="text-orange-500 mb-2">
+     CREATIVE BLOGGING
+    </p>
+    <h1 class="text-4xl md:text-6xl font-bold mb-4 fade-in">
+     This site is under construction
+    </h1>
     <script type="text/javascript">
-	atOptions = {
-		'key' : '18d71dc7f6fa8c5e48b5e669e1e8d064',
-		'format' : 'iframe',
-		'height' : 300,
-		'width' : 160,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/18d71dc7f6fa8c5e48b5e669e1e8d064/invoke.js"></script>
-    <div class="lg:w-1/2 mt-12 lg:mt-0 relative">
-        <img alt="Illustration of web development process with people working on a large screen" class="w-full" height="400" src="https://storage.googleapis.com/a1aa/image/9lz3fsKNfrvjx0qRhfw2eu1L6ug1fYEJUYQwK3FFtWKoyCVgC.jpg" width="600"/>
-    </div>
-</main>
-<footer class="bg-white p-6 mt-12 shadow-md">
-    <div class="flex flex-col items-center space-y-4">
-        <div class="flex items-center space-x-4">
-            <i class="fab fa-whatsapp text-green-500 text-2xl"></i>
-            <span class="text-blue-600">9749897252</span>
-        </div>
-        <div class="flex items-center space-x-4">
-            <i class="fas fa-envelope text-red-500 text-2xl"></i>
-            <span class="text-blue-600">contact.karan062@gmail.com</span>
-        </div>
-        <div class="flex items-center space-x-4">
-            <i class="fab fa-instagram text-pink-500 text-2xl"></i>
-            <span class="text-blue-600">Karan_Marasini</span>
-        </div>
-    </div>
-   </footer>
-</body>
+        atOptions = {
+            'key' : '18d71dc7f6fa8c5e48b5e669e1e8d064',
+            'format' : 'iframe',
+            'height' : 300,
+            'width' : 160,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/18d71dc7f6fa8c5e48b5e669e1e8d064/invoke.js"></script>
+    <button class="bg-red-600 text-white px-6 py-3 rounded hover:bg-red-700" onclick="showUnderConstruction()">
+     Read More
+    </button>
+   </div>
+   <div class="md:w-1/2 mt-6 md:mt-0">
+    <img alt="Portrait of a man" class="rounded dark-glow transparent-bg" height="500" src="karan.jpg" width="500"/>
+   </div>
+  </main>
+  <section class="p-6 md:p-12">
+   <h2 class="text-3xl md:text-4xl font-bold mb-4">
+    HOW WE MAKE USER EXPERIENCES
+   </h2>
+   <p class="text-gray-400">
+    You can't use up creativity. The more you use, the more you have in your significant mind.
+   </p>
+   <p class="text-gray-400 mt-2">
+    Karan Sharma
+   </p>
+   <p class="text-gray-400">
+    Digital Artist
+   </p>
+  </section>
+  <div id="contact-info" class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center">
+   <div class="bg-white text-black p-6 rounded-lg relative">
+    <button class="absolute top-4 right-4 text-black" onclick="hideContactInfo()">
+     <i class="fas fa-times"></i>
+    </button>
+    <h2 class="text-2xl font-bold mb-4">
+     Contact Information
+    </h2>
+    <p class="flex items-center mb-2">
+     <i class="fab fa-whatsapp text-green-500 mr-2"></i>
+     9749897252
+    </p>
+    <p class="flex items-center">
+     <i class="fas fa-envelope text-blue-500 mr-2"></i>
+     contact.karan062@gmail.com
+    </p>
+   </div>
+  </div>
+  <div id="under-construction" class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center">
+   <div class="text-center">
+    <h2 class="text-4xl font-bold glow">
+     This site is under construction
+    </h2>
+    <button class="mt-4 bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 fade-in" onclick="hideUnderConstruction()">
+     Close
+    </button>
+   </div>
+  </div>
+  <script>
+   function showContactInfo() {
+            document.getElementById('contact-info').classList.remove('hidden');
+        }
+
+        function hideContactInfo() {
+            document.getElementById('contact-info').classList.add('hidden');
+        }
+
+        function showUnderConstruction() {
+            document.getElementById('under-construction').classList.remove('hidden');
+        }
+
+        function hideUnderConstruction() {
+            document.getElementById('under-construction').classList.add('hidden');
+        }
+  </script>
+ </body>
 </html>
